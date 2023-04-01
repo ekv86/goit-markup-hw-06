@@ -21,10 +21,10 @@
                         <a href="./index.html" class="link menu-link active">Студія</a>
                     </li>
                     <li class="menu-item">
-                        <a href="./portfolio.html"class="link menu-link">Портфоліо</a>
+                        <a href="./portfolio.html" class="link menu-link">Портфоліо</a>
                     </li>
                     <li class="menu-item">
-                        <a href=""class="link  menu-link">Контакти</a>
+                        <a href="" class="link  menu-link">Контакти</a>
                     </li>
                 </ul>
             </nav>
@@ -377,20 +377,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="subscription">
-                <form>
-                    <label class="subscription-form-field">
-                        <p class="subscription-text">Підпишіться на розсилку</p>
-                        <div class="subscription-form-input">
-                            <input type="email" name="user-email" class="subscription-input" placeholder="E-mail">
-                            <button type="submit" class="subscription-btn">Підписатися</button>
-                            <svg width="24" height="24" class="subscription-btn-icon">
-                                <use href="./images/icons.svg#icon-icon-send"></use>
-                            </svg>
-                        </div>
-                    </label>
-                </form>
-            </div>
+            <form class="subscription">
+                <label class="subscription-text">
+                    Підпишіться на розсилку
+                </label>
+                <span class="subscription-form-input">
+                    <input type="email" name="user-email" class="subscription-input" placeholder="E-mail">
+                    <button type="submit" class="subscription-btn">
+                        <span class="subscription-btn-text">Підписатися</span> 
+                        <svg width="24" height="24" class="subscription-btn-icon">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+                </span>
+            </form>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -435,7 +435,7 @@
                 </label>
                 <div class="contact-checkbox">
                     <input type="checkbox" name="accept" id="accept" class="checkbox-input" required>
-                    <label for="accept" class="checkbox-text">Погоджуюся з розсилкою та приймаю <a href="" class="checkbox-link">Умови договору</a></label>
+                    <label for="accept" class="checkbox-text">Погоджуюся з розсилкою та приймаю&nbsp; <a href="" class="checkbox-link">Умови договору</a></label>
                 </div>
                 <button type="submit" class="contact-form-btn">Відправити</button>
             </form>

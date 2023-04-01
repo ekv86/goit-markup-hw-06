@@ -486,7 +486,7 @@ address {
 }
 
 .footer-join {
-    margin-left: 70px;
+    margin-left: 93px;
 }
 
 .join {
@@ -533,6 +533,7 @@ address {
 }
 
 .subscription-text {
+    display: block;
     width: 100%;
     margin-bottom: 20px;
     font-weight: 700;
@@ -544,7 +545,6 @@ address {
 }
 
 .subscription-form-input {
-    position: relative;
     display: flex;
 }
     
@@ -569,7 +569,9 @@ address {
 }
 
 .subscription-btn {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     min-width: 200px;
     margin-left: 12px;
     padding: 10px 28px;
@@ -585,12 +587,6 @@ address {
     border-radius: 4px;
     border: none;
     cursor: pointer;
-}
-
-.subscription-btn-icon {
-    position: absolute;
-    top: 13px;
-    right: 28px;
 }
 
 /* ========BACKDROP======== */
@@ -718,6 +714,7 @@ address {
 }
 
 .contact-form-message {
+    display: block;
     width: 100%;
     height: 120px;
     padding: 12px 16px;
@@ -741,6 +738,9 @@ address {
 }
 
 .checkbox-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
